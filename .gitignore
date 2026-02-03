@@ -1,2 +1,5 @@
 /qml-env
 /prototype/.ipynb_checkpoints
+*.npy
+/notebooks/data_processing/.ipynb_checkpoints
+/data
