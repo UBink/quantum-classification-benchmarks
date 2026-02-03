@@ -3,3 +3,4 @@
 *.npy
 /notebooks/data_processing/.ipynb_checkpoints
 /data
+.DS_Store
