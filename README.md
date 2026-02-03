@@ -21,7 +21,7 @@ this repository.
 ---
 
 ## Repository Structure
-
+```
 quantum-classification-benchmarks/
 ├── notebooks/
 │ └── data_processing/ # Data preprocessing, validation, and feature reduction
@@ -29,7 +29,7 @@ quantum-classification-benchmarks/
 ├── requirements.txt # Python dependencies used during experimentation
 ├── LICENSE # Project license
 └── README.md # Project overview and structure
-
+```
 ---
 
 ## Notes
