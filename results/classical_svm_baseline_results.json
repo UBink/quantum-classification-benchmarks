@@ -1,0 +1,137 @@
+{
+  "experiment_info": {
+    "model_type": "classical_svm_rbf",
+    "date": "2026-02-03T16:50:14.390309",
+    "random_state": 42
+  },
+  "results": [
+    {
+      "dataset": "mnist_01_pca_4",
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.997,
+      "f1_score": 0.996997114226772,
+      "training_time_seconds": 0.010205745697021484,
+      "inference_time_seconds": 0.003034830093383789
+    },
+    {
+      "dataset": "mnist_01_pca_8",
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.997,
+      "f1_score": 0.996997114226772,
+      "training_time_seconds": 0.0065038204193115234,
+      "inference_time_seconds": 0.0022690296173095703
+    },
+    {
+      "dataset": "mnist_38_pca_4",
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.875,
+      "f1_score": 0.8749088085214121,
+      "training_time_seconds": 0.05863595008850098,
+      "inference_time_seconds": 0.02250814437866211
+    },
+    {
+      "dataset": "mnist_38_pca_8",
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.957,
+      "f1_score": 0.9569048027091847,
+      "training_time_seconds": 0.025896310806274414,
+      "inference_time_seconds": 0.011491775512695312
+    },
+    {
+      "dataset": "mnist_01_pca_4",
+      "n_train": 500,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.995,
+      "f1_score": 0.9949957914606183,
+      "training_time_seconds": 0.001924753189086914,
+      "inference_time_seconds": 0.0015408992767333984,
+      "timestamp": "2026-02-03T16:50:21.122632"
+    },
+    {
+      "dataset": "mnist_01_pca_4",
+      "n_train": 2000,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.997,
+      "f1_score": 0.996997114226772,
+      "training_time_seconds": 0.004111766815185547,
+      "inference_time_seconds": 0.001898050308227539,
+      "timestamp": "2026-02-03T16:50:21.133460"
+    },
+    {
+      "dataset": "mnist_01_pca_8",
+      "n_train": 500,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.997,
+      "f1_score": 0.996997114226772,
+      "training_time_seconds": 0.0008368492126464844,
+      "inference_time_seconds": 0.0010020732879638672,
+      "timestamp": "2026-02-03T16:50:21.138393"
+    },
+    {
+      "dataset": "mnist_01_pca_8",
+      "n_train": 2000,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.997,
+      "f1_score": 0.996997114226772,
+      "training_time_seconds": 0.003142118453979492,
+      "inference_time_seconds": 0.0014977455139160156,
+      "timestamp": "2026-02-03T16:50:21.145302"
+    },
+    {
+      "dataset": "mnist_38_pca_4",
+      "n_train": 500,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.855,
+      "f1_score": 0.8545600441335038,
+      "training_time_seconds": 0.0021529197692871094,
+      "inference_time_seconds": 0.006236076354980469,
+      "timestamp": "2026-02-03T16:50:21.156263"
+    },
+    {
+      "dataset": "mnist_38_pca_4",
+      "n_train": 2000,
+      "n_test": 1000,
+      "n_features": 4,
+      "accuracy": 0.872,
+      "f1_score": 0.8718338967301623,
+      "training_time_seconds": 0.018899917602539062,
+      "inference_time_seconds": 0.014362812042236328,
+      "timestamp": "2026-02-03T16:50:21.191425"
+    },
+    {
+      "dataset": "mnist_38_pca_8",
+      "n_train": 500,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.937,
+      "f1_score": 0.9367799309396008,
+      "training_time_seconds": 0.0012240409851074219,
+      "inference_time_seconds": 0.003033161163330078,
+      "timestamp": "2026-02-03T16:50:21.197368"
+    },
+    {
+      "dataset": "mnist_38_pca_8",
+      "n_train": 2000,
+      "n_test": 1000,
+      "n_features": 8,
+      "accuracy": 0.955,
+      "f1_score": 0.9549003749282164,
+      "training_time_seconds": 0.008128881454467773,
+      "inference_time_seconds": 0.006980180740356445,
+      "timestamp": "2026-02-03T16:50:21.213706"
+    }
+  ]
+}
