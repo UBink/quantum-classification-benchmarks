@@ -28,7 +28,7 @@ DATASETS = [
     "mnist_38_pca_8"
 ]
 
-SAMPLE_SIZES = [500]  # ONLY n=500 for parallel execution
+SAMPLE_SIZES = [500, 2000]  # ONLY n=500 , n=2000 for parallel execution
 SEEDS = [42, 100, 20, 5, 99]
 
 FEATURE_MAP_REPS = 1
@@ -37,7 +37,7 @@ ENTANGLEMENT = 'linear'
 MAX_ITER = 100
 
 DATA_PATH = Path("data/processed")
-RESULTS_PATH = Path("results/vqc_n500_results.json")  # Separate file!
+RESULTS_PATH = Path("results/vqc_results.json")  # Separate file!
 
 # ============================================================================
 # DATA PREPARATION
@@ -312,13 +312,12 @@ def run_all_experiments(resume=True):
         os.fsync(f.fileno())
     
     print("\n" + "=" * 70)
-    print("VQC n=500 EXPERIMENTS COMPLETE")
+    print("VQC EXPERIMENTS COMPLETE")
     print("=" * 70)
     print(f"Total experiments: {len(all_results['results'])}")
     print(f"Results saved to: {RESULTS_PATH}")
     print(f"Errors encountered: {len(all_results.get('errors', []))}")
     print("\nNext: Run vqc_n2000_n4000.py after quantum kernel finishes")
-    print("Then: Run merge_vqc_results.py to combine all VQC results")
     print("=" * 70)
     
     return all_results
