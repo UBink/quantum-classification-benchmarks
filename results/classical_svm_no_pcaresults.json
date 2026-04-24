@@ -1,0 +1,52 @@
+{
+  "experiment_info": {
+    "model_type": "classical_svm_rbf",
+    "date": "2026-04-23T13:46:07.807891",
+    "hyperparameter_tuning": "GridSearchCV with C=[0.1, 1, 10, 100] and gamma=['scale', 'auto', 0.001, 0.01, 0.1]",
+    "cv_folds": 5
+  },
+  "results": [
+    {
+      "dataset": "mnist_01_no_pca",
+      "n_train": 100,
+      "n_test": 1000,
+      "n_features": 784,
+      "seed": 42,
+      "best_C": 0.1,
+      "best_gamma": "scale",
+      "accuracy": 0.993,
+      "f1_score": 0.9929941080448657,
+      "training_time_seconds": 2.0865070819854736,
+      "inference_time_seconds": 0.017868757247924805,
+      "timestamp": "2026-04-23T14:15:38.019788"
+    },
+    {
+      "dataset": "mnist_01_no_pca",
+      "n_train": 100,
+      "n_test": 1000,
+      "n_features": 784,
+      "seed": 100,
+      "best_C": 0.1,
+      "best_gamma": 0.01,
+      "accuracy": 0.996,
+      "f1_score": 0.9959958998013967,
+      "training_time_seconds": 0.054266929626464844,
+      "inference_time_seconds": 0.016012907028198242,
+      "timestamp": "2026-04-23T14:15:38.103048"
+    },
+    {
+      "dataset": "mnist_01_no_pca",
+      "n_train": 100,
+      "n_test": 1000,
+      "n_features": 784,
+      "seed": 20,
+      "best_C": 0.1,
+      "best_gamma": "scale",
+      "accuracy": 0.995,
+      "f1_score": 0.9949945490639307,
+      "training_time_seconds": 0.0487980842590332,
+      "inference_time_seconds": 0.015438079833984375,
+      "timestamp": "2026-04-23T14:15:38.171771"
+    }
+  ]
+}
