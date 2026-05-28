@@ -1,0 +1,962 @@
+{
+  "experiment_info": {
+    "model_type": "quantum_kernel_svm_8way",
+    "date": "2026-05-25T17:16:31.231223",
+    "framework": "qiskit",
+    "simulator": "statevector (noiseless)",
+    "noise_model": "none",
+    "method": "statevector",
+    "encoding": "angle",
+    "shots": 1024,
+    "n_classes": 4,
+    "classes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "multiclass_strategy": "one_vs_one",
+    "datasets": [
+      "mnist_multi4_pca_4",
+      "mnist_multi4_pca_8"
+    ],
+    "qubit_configs": {
+      "mnist_multi4_pca_4": 4,
+      "mnist_multi4_pca_8": 8
+    }
+  },
+  "results": [
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.89,
+      "f1_score": 0.8896989966555184,
+      "training_time_seconds": 3.148867130279541,
+      "inference_time_seconds": 6.354984998703003,
+      "timestamp": "2026-05-25T17:17:26.870103"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9090880846564662,
+      "training_time_seconds": 3.1447601318359375,
+      "inference_time_seconds": 6.371685266494751,
+      "timestamp": "2026-05-25T17:17:36.388975"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.89,
+      "f1_score": 0.8902020202020202,
+      "training_time_seconds": 3.143261194229126,
+      "inference_time_seconds": 6.380111217498779,
+      "timestamp": "2026-05-25T17:17:45.914871"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.88,
+      "f1_score": 0.8783164005805515,
+      "training_time_seconds": 3.1587300300598145,
+      "inference_time_seconds": 6.4302098751068115,
+      "timestamp": "2026-05-25T17:17:55.506291"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.87,
+      "f1_score": 0.870240867121638,
+      "training_time_seconds": 3.150383234024048,
+      "inference_time_seconds": 6.365113258361816,
+      "timestamp": "2026-05-25T17:18:05.024230"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.89,
+      "f1_score": 0.8903131272581292,
+      "training_time_seconds": 20.134363889694214,
+      "inference_time_seconds": 15.90385890007019,
+      "timestamp": "2026-05-25T17:18:41.064868"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9099725850669247,
+      "training_time_seconds": 19.88394594192505,
+      "inference_time_seconds": 16.175036191940308,
+      "timestamp": "2026-05-25T17:19:17.127866"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.9,
+      "f1_score": 0.8996989966555183,
+      "training_time_seconds": 19.941022872924805,
+      "inference_time_seconds": 16.397438049316406,
+      "timestamp": "2026-05-25T17:19:53.470322"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.9,
+      "f1_score": 0.8991143627262226,
+      "training_time_seconds": 19.944066047668457,
+      "inference_time_seconds": 15.7764310836792,
+      "timestamp": "2026-05-25T17:20:29.194958"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9104040404040403,
+      "training_time_seconds": 19.97877788543701,
+      "inference_time_seconds": 16.17740511894226,
+      "timestamp": "2026-05-25T17:21:05.354910"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9096665540703566,
+      "training_time_seconds": 50.93819999694824,
+      "inference_time_seconds": 25.876917839050293,
+      "timestamp": "2026-05-25T17:22:22.173262"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9096665540703566,
+      "training_time_seconds": 50.98748183250427,
+      "inference_time_seconds": 25.375450134277344,
+      "timestamp": "2026-05-25T17:23:38.541105"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9096665540703566,
+      "training_time_seconds": 51.459388971328735,
+      "inference_time_seconds": 25.494796752929688,
+      "timestamp": "2026-05-25T17:24:55.499451"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9096665540703566,
+      "training_time_seconds": 51.424882888793945,
+      "inference_time_seconds": 25.3769748210907,
+      "timestamp": "2026-05-25T17:26:12.306650"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 4,
+      "n_qubits": 4,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.91,
+      "f1_score": 0.9096665540703566,
+      "training_time_seconds": 51.869503021240234,
+      "inference_time_seconds": 25.556843996047974,
+      "timestamp": "2026-05-25T17:28:32.872895"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.95,
+      "f1_score": 0.9500943585290089,
+      "training_time_seconds": 26.732214212417603,
+      "inference_time_seconds": 54.79686188697815,
+      "timestamp": "2026-05-25T17:29:54.406972"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.92,
+      "f1_score": 0.92012093298858,
+      "training_time_seconds": 26.59202790260315,
+      "inference_time_seconds": 54.18465805053711,
+      "timestamp": "2026-05-25T17:31:15.189113"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.95,
+      "f1_score": 0.9499959983993597,
+      "training_time_seconds": 27.07516312599182,
+      "inference_time_seconds": 53.72216987609863,
+      "timestamp": "2026-05-25T17:32:35.992407"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.93,
+      "f1_score": 0.930172068827531,
+      "training_time_seconds": 26.612679958343506,
+      "inference_time_seconds": 54.52038502693176,
+      "timestamp": "2026-05-25T17:33:57.130734"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 100,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.93,
+      "f1_score": 0.9297719087635054,
+      "training_time_seconds": 26.945212841033936,
+      "inference_time_seconds": 53.96890687942505,
+      "timestamp": "2026-05-25T17:35:18.052405"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9595252077917911,
+      "training_time_seconds": 182.18520784378052,
+      "inference_time_seconds": 153.40890097618103,
+      "timestamp": "2026-05-25T17:40:53.653221"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.94,
+      "f1_score": 0.9397723704866562,
+      "training_time_seconds": 194.82495594024658,
+      "inference_time_seconds": 161.0110740661621,
+      "timestamp": "2026-05-25T17:46:49.497281"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 190.38592410087585,
+      "inference_time_seconds": 161.57263898849487,
+      "timestamp": "2026-05-25T17:52:41.461504"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.94,
+      "f1_score": 0.9395152291685904,
+      "training_time_seconds": 202.34543108940125,
+      "inference_time_seconds": 149.01863288879395,
+      "timestamp": "2026-05-25T17:58:32.831337"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 250,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.94,
+      "f1_score": 0.9394147157190637,
+      "training_time_seconds": 168.68319511413574,
+      "inference_time_seconds": 134.30091094970703,
+      "timestamp": "2026-05-25T18:03:35.821343"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 42,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 437.15419006347656,
+      "inference_time_seconds": 216.7429518699646,
+      "timestamp": "2026-05-25T18:14:29.723183"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 100,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 429.2945830821991,
+      "inference_time_seconds": 215.61156511306763,
+      "timestamp": "2026-05-25T18:25:14.635754"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 20,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 429.5149402618408,
+      "inference_time_seconds": 213.94689011573792,
+      "timestamp": "2026-05-25T18:35:58.106501"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 5,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 422.06795287132263,
+      "inference_time_seconds": 213.08078694343567,
+      "timestamp": "2026-05-26T09:11:56.618519"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_classes": 8,
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_train": 400,
+      "n_test": 100,
+      "n_features": 8,
+      "n_qubits": 8,
+      "seed": 99,
+      "encoding": "angle",
+      "shots": 1024,
+      "multiclass_strategy": "one_vs_one",
+      "noise_model": "none (statevector)",
+      "accuracy": 0.96,
+      "f1_score": 0.9603485625019238,
+      "training_time_seconds": 427.522047996521,
+      "inference_time_seconds": 7224.414945840836,
+      "timestamp": "2026-05-26T14:51:11.704528"
+    }
+  ],
+  "errors": [
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 100,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.232978"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 100,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.233480"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 100,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.233882"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 100,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.234290"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 100,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.234645"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 250,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.234996"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 250,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.235338"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 250,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.235680"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 250,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.236310"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 250,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.240491"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 400,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.241148"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 400,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.241747"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 400,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.245883"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 400,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.248459"
+    },
+    {
+      "dataset": "mnist_multi4_pca_4",
+      "n_train": 400,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.250438"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 100,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.251438"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 100,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.251805"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 100,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.252167"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 100,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.252615"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 100,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.253097"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 250,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.253544"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 250,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.253980"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 250,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.254421"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 250,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.254873"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 250,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.255317"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 400,
+      "seed": 42,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.255768"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 400,
+      "seed": 100,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.256218"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 400,
+      "seed": 20,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.256675"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 400,
+      "seed": 5,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.257128"
+    },
+    {
+      "dataset": "mnist_multi4_pca_8",
+      "n_train": 400,
+      "seed": 99,
+      "error": "Expected 8 classes, got 4: [0 1 2 3]",
+      "timestamp": "2026-05-25T17:16:31.257633"
+    }
+  ]
+}
